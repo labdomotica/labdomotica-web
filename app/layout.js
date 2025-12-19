@@ -1,15 +1,9 @@
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
+export const metadata = {
   title: "LabDomotica",
   description: "Domótica e IoT real: pruebas, reviews y automatización"
 };
 
-export default function RootLayout({
-  children
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body style={{ margin: 0, fontFamily: "system-ui, sans-serif" }}>
