@@ -1,4 +1,6 @@
-export const metadata = {
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
   title: "LabDomotica",
   description: "Domótica e IoT real: pruebas, reviews y automatización"
 };
