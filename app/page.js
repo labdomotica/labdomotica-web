@@ -1,3 +1,5 @@
+"use client";
+
 <div className="flex gap-10 text-light/80">
   {/* YouTube */}
   <a
