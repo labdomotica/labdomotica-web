@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset básico */
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Evita scroll horizontal raro */
+* {
+  box-sizing: border-box;
+}
