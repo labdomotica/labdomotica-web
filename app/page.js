@@ -1,5 +1,3 @@
-"use client";
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center text-center px-6">
@@ -29,28 +27,25 @@ export default function Home() {
           href="https://www.youtube.com/@labdomotica"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:opacity-100 opacity-80 transition"
           aria-label="YouTube"
         >
-          <img src="/icons/youtube.svg" alt="YouTube" className="w-8" />
+          <img src="/icons/youtube.svg" alt="YouTube" className="w-8 opacity-80 hover:opacity-100 transition" />
         </a>
 
         <a
           href="https://www.instagram.com/labdomotica"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:opacity-100 opacity-80 transition"
           aria-label="Instagram"
         >
-          <img src="/icons/instagram.svg" alt="Instagram" className="w-8" />
+          <img src="/icons/instagram.svg" alt="Instagram" className="w-8 opacity-80 hover:opacity-100 transition" />
         </a>
 
         <a
           href="mailto:contacto@labdomotica.com"
-          className="hover:opacity-100 opacity-80 transition"
           aria-label="Email"
         >
-          <img src="/icons/email.svg" alt="Email" className="w-8" />
+          <img src="/icons/email.svg" alt="Email" className="w-8 opacity-80 hover:opacity-100 transition" />
         </a>
       </div>
 
